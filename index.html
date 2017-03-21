@@ -1,0 +1,49 @@
+<DOCTYPE html>
+    <html lang='en' ng-app='ResumeApp'>
+
+    <head>
+        <meta charset='utf-8' />
+        <title>Matthew Messier</title>
+        <!-- dependencies -->
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u' crossorigin='anonymous'>
+        <script src='node_modules/angular/angular.js'></script>
+        <script src='node_modules/angular-route/angular-route.js'></script>
+        
+        <!-- scripts -->
+        <script src='app/app.js'></script>
+        <script src='app/scripts/controllers/controllers.js'></script>
+
+        <!-- styles -->
+        <link rel='stylesheet' type='text/css' href='style.css'>
+    </head>
+    <header>
+        <div class='col-lg-4'></div>
+        <h1 class='col-lg-4'>Matthew Messier</h1>
+        <div class='col-lg-4'></div>
+    </header>
+
+    <body>
+    	<section class='col-lg-12'>
+                <div class='col-lg-4'></div>
+                <div class='col-lg-4'>
+                    <input type='text' id='search-resume' placeholder='search my resume' class='col-lg-12' />
+                </div>
+                <div class='col-lg-4'></div>
+            </section>
+            <nav class='navbar navbar-default col-lg-12' ng-controller='navbarController'>
+                <div class='container-fluid'>
+                    <ul class='nav navbar-nav col-lg-12'>
+                        <li ng-repeat='heading in headings' class="col-lg-2"><a href='#/entries/{{heading}}'>{{heading.name}}</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+        <div ng-view>
+            
+        </div>
+    </body>
+    <footer>
+    </footer>
+
+    </html>
+</DOCTYPE>
