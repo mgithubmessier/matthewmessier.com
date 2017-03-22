@@ -1,4 +1,28 @@
 {
+  "About": [
+    {
+      "details": [
+        "coffee.",
+        "computers.",
+        "music.",
+        "film."
+      ]
+    }
+  ],
+  "Education": [
+    {
+      "date": "May 2016",
+      "degree": "Bachelor of the Sciences: Computer Science",
+      "location": "Easton, MA",
+      "school": "Stonehill College"
+    },
+    {
+      "date": "May 2016",
+      "degree": "Bachelor of the Arts: Economics",
+      "location": "Easton, MA",
+      "school": "Stonehill College"
+    }
+  ],
   "Experience": [
     {
       "company": "Fidelity Investments",
@@ -68,6 +92,41 @@
       ],
       "org": "Association for Computing Machinery",
       "title": "President"
+    }
+  ],
+  "Technology": [
+    {
+      "languages": [
+        "Java",
+        "C++",
+        "HTML",
+        "Bootstrap",
+        "SahiScript",
+        "Shell/Command Line"
+      ],
+      "proficiency": "Advanced"
+    },
+    {
+    	"proficiency": "Proficient",
+    	"languages": [
+    	"Javascript",
+    	"AngularJS 1.6",
+    	"Jasmine",
+    	"Protractor",
+    	"CSS",
+    	"JSON",
+    	"JQuery"
+    	]
+    	},
+    {
+      "languages": [
+        "C#",
+        "Clojure",
+        "LateX",
+        "AngularJS 2.0",
+        "Sass"
+      ],
+      "proficiency": "Familiar"
     }
   ]
 }
