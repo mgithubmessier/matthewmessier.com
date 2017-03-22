@@ -1,0 +1,23 @@
+<section>
+	<div ng-if="heading == 'Experience'">
+	    <ul ng-repeat='entry in entries' class="col-lg-3">
+	    	<li>{{entry.title}}</li>
+	    	<li>{{entry.company}}</li>
+	    	<li>{{entry.date}}</li>
+	    	<li>{{entry.location}}</li>
+	    		<ul>
+	    			<li ng-repeat='detail in entry.details'>{{detail}}</li>
+	    		</ul>
+	    </ul>
+	</div>
+	<div ng-if="heading == 'Leadership'">
+	    <ul ng-repeat='entry in entries' class="col-lg-4">
+	    	<li>{{entry.title}}</li>
+	    	<li>{{entry.org}}</li>
+	    	<li>{{entry.date}}</li>
+	    		<ul>
+	    			<li ng-repeat='detail in entry.details'>{{detail}}</li>
+	    		</ul>
+	    </ul>
+	</div>
+</section>

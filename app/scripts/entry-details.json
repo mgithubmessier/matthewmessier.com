@@ -1,0 +1,73 @@
+{
+  "Experience": [
+    {
+      "company": "Fidelity Investments",
+      "date": "Winter 2016",
+      "details": [
+        "Practiced the Scrum software development process as both a Scrum Master and Development Team member"
+      ],
+      "location": "Smithfield, RI",
+      "title": "Leap Agile Engineer"
+    },
+    {
+      "company": "Fidelity Investments",
+      "date": "Summer 2015",
+      "details": [
+        "Developed a desktop application that expedites quality assurance testing pop",
+        "Conducted demonstrations and smoke tests, the program was then distributed to employees in India, China, and America",
+        "Collaborated with peers on a presentation pitching Amazon Echo as a corporate technology"
+      ],
+      "location": "Smithfield, RI",
+      "title": "Technical Intern"
+    },
+    {
+      "company": "Baycoast Bank",
+      "date": "Summer 2014",
+      "details": [
+        "Provided bank employees and customers with hardware and software support as a network administrator, improving employee and customer service skills",
+        "Aided supervisors in setup and maintenance of bank servers, providing experience in dealing with both software and hardware behind networks"
+      ],
+      "location": "Swansea, MA",
+      "title": "Information Technology Intern"
+    },
+    {
+      "company": "KVH Industries",
+      "date": "Summer 2013",
+      "details": [
+        "Developed a more efficient program for flashing a GPS System, which mitigated the time required, increased efficiency of the process by 400%, improved conciseness in computer programming skills",
+        "Collaborated with a senior software engineer to solve GPS connectivity issues by gathering extensive data on users’ issues with KHV Industries’ GPS systems by testing KVH satellites’ connections with users' devices"
+      ],
+      "location": "Middletown, RI",
+      "title": "Software Engineering Intern"
+    }
+  ],
+  "Leadership": [
+    {
+      "date": "Fall 2014 - Spring 2016",
+      "details": [
+        "Supporting students wishing to gain a complete understanding of Java Programming fundamentals",
+        "Correcting programming assignments providing experience with analyzing others’ code"
+      ],
+      "org": "Stonehill College",
+      "title": "Teacher’s Assistant for Computer Science I"
+    },
+    {
+      "date": "Spring 2014 - Spring 2016",
+      "details": [
+        "Work with Board Members to plan a tour in Ireland for 32 students and staff",
+        "Fund-raise to offset expenses associated with travel, reduced costs by 10% for all involved in the Ireland Tour"
+      ],
+      "org": "Stonehill College Chapel Choir",
+      "title": "President"
+    },
+    {
+      "date": "Spring 2013 - Spring 2016",
+      "details": [
+        "Consulting with other officers to bring in professional speakers (i.e. Amazon)",
+        "Collaborating in planning computer programming competition events"
+      ],
+      "org": "Association for Computing Machinery",
+      "title": "President"
+    }
+  ]
+}

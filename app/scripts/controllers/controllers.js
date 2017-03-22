@@ -1,12 +1,13 @@
-
-angular.module('ResumeApp').controller('entriesController', [
+angular.module('ResumeApp').controller('entriesDetailsController', [
     '$scope',
     '$http',
     '$routeParams',
     function($scope, $http, $routeParams) {
-        $http.get('app/scripts/' + $routeParams.heading + '.json').then(function(data) {
-            $scope.entries = data.data;
-        });
+        $http.get('app/scripts/entry-details.json').then(function(data) {
+            $scope.heading = $routeParams.heading;
+            $scope.entries = data.data[$routeParams.heading];
+            console.log(JSON.stringify(data.data[$routeParams.heading]));
+        });    
     }
 ]);
 angular.module('ResumeApp').controller('navbarController', [
@@ -15,8 +16,6 @@ angular.module('ResumeApp').controller('navbarController', [
     '$routeParams',
     function($scope, $http, $routeParams) {
         $http.get('app/scripts/headings.json').then(function(data) {
-            for(dat in data)
-            console.log("DATA: " + dat);
             $scope.headings = data.data;
         });
     }

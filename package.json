@@ -1,0 +1,25 @@
+{
+  "name": "matthewmessier.com",
+  "version": "1.0.0",
+  "description": "My resume website",
+  "main": "/scripts/app.js",
+  "dependencies": {
+    "angular": "^1.6.3",
+    "angular-route": "^1.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node /scripts/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgithubmessier/matthewmessier.com.git"
+  },
+  "author": "Matthew Messier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgithubmessier/matthewmessier.com/issues"
+  },
+  "homepage": "https://github.com/mgithubmessier/matthewmessier.com#readme"
+}

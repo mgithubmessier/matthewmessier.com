@@ -1,8 +1,15 @@
 #search-resume {
-	text-align: center;
+	text-align: right;
+	font-size: 40pt;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 header {
-	text-align: center;
+	text-align: right;
+}
+.name {
+	font-size: 100pt;
+	line-height: 100px;
 }
 nav {
 	text-align: center;
