@@ -1,6 +1,6 @@
 <section>
     <div ng-if="heading == 'Experience'">
-        <ul ng-repeat='entry in entries' class="col-lg-3">
+        <ul ng-repeat='entry in entries' class="col-xs-3">
             <li>{{entry.title}}</li>
             <li>{{entry.company}}</li>
             <li>{{entry.date}}</li>
@@ -11,7 +11,7 @@
         </ul>
     </div>
     <div ng-if="heading == 'Leadership'">
-        <ul ng-repeat='entry in entries' class="col-lg-4">
+        <ul ng-repeat='entry in entries' class="col-xs-4">
             <li>{{entry.title}}</li>
             <li>{{entry.org}}</li>
             <li>{{entry.date}}</li>
@@ -21,19 +21,19 @@
         </ul>
     </div>
     <div ng-if="heading == 'Education'">
-        <ul ng-repeat='entry in entries' class="col-lg-6">
+        <ul ng-repeat='entry in entries' class="col-xs-6">
             <li>{{entry.degree}}</li>
             <li>{{entry.school}}</li>
             <li>{{entry.location}}</li>
         </ul>
     </div>
     <div ng-if="heading == 'About'">
-        <div ng-repeat='entry in entries' class="col-lg-12">
-            <span ng-repeat='detail in entry.details' class="about col-lg-3">{{detail}}</span>
+        <div ng-repeat='entry in entries' class="col-xs-12">
+            <span ng-repeat='detail in entry.details' class="about col-xs-12 col-sm-3">{{detail}}</span>
         </div>
     </div>
     <div ng-if="heading == 'Technology'">
-        <ul ng-repeat='entry in entries' class="col-lg-4">
+        <ul ng-repeat='entry in entries' class="col-xs-4">
             <li>{{entry.proficiency}}</li>
             <ul>
                 <li ng-repeat='language in entry.languages'>{{language}}</li>
@@ -41,6 +41,6 @@
         </ul>
     </div>
     <div ng-if="heading == 'Cinematography'">
-		<iframe class="col-lg-6" height="315" src="https://www.youtube.com/embed/videoseries?list=PLe1NPwwyggwpMvNXE4IV3MGYpNbw-UkmM" frameborder="0" allowfullscreen></iframe>
+		<iframe class="col-xs-6" height="315" src="https://www.youtube.com/embed/videoseries?list=PLe1NPwwyggwpMvNXE4IV3MGYpNbw-UkmM" frameborder="0" allowfullscreen></iframe>
     </div>
 </section>
