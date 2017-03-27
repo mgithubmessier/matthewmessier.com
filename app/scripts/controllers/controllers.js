@@ -1,12 +1,11 @@
 angular.module('ResumeApp').controller('entriesDetailsController', [
     '$scope',
     '$http',
-    '$routeParams',
-    function($scope, $http, $routeParams) {
+    '$location',
+    function($scope, $http, $location) {
         $http.get('app/scripts/entry-details.json').then(function(data) {
-            $scope.heading = $routeParams.heading;
-            $scope.entries = data.data[$routeParams.heading];
-            console.log(JSON.stringify(data.data[$routeParams.heading]));
+            var heading = $location.url().substr(1); 
+            $scope.entries = data.data[heading];
         });    
     }
 ]);

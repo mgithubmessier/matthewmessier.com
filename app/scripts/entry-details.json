@@ -9,6 +9,31 @@
       ]
     }
   ],
+  "Cinematography": [
+    {
+      "details": [
+          "Film: Today is the Day",
+          "Award: Best Soundtrack",
+          "Year: 2012"
+      ],
+      "title": "awards"
+    },
+    {
+      "details": [
+        "Messy Shed Productions (2013 - present)",
+        "BIG Productins (2012)",
+        "Cougar Films (2011)"
+      ],
+      "title": "partners"
+    },
+    {
+      "details": [
+          "Title: 48 Hour Film Project Participant",
+          "Years: 2011 - 2015"
+      ],
+      "title": "participation"
+    }
+  ],
   "Education": [
     {
       "date": "May 2016",
@@ -73,7 +98,7 @@
         "Correcting programming assignments providing experience with analyzing others’ code"
       ],
       "org": "Stonehill College",
-      "title": "Teacher’s Assistant for Computer Science I"
+      "title": "Teacher’s Assistant for Computer Science"
     },
     {
       "date": "Spring 2014 - Spring 2016",
@@ -107,17 +132,17 @@
       "proficiency": "Advanced"
     },
     {
-    	"proficiency": "Proficient",
-    	"languages": [
-    	"Javascript",
-    	"AngularJS 1.6",
-    	"Jasmine",
-    	"Protractor",
-    	"CSS",
-    	"JSON",
-    	"JQuery"
-    	]
-    	},
+      "languages": [
+        "Javascript",
+        "AngularJS 1.6",
+        "Jasmine",
+        "Protractor",
+        "CSS",
+        "JSON",
+        "JQuery"
+      ],
+      "proficiency": "Proficient"
+    },
     {
       "languages": [
         "C#",

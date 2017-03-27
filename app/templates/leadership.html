@@ -1,0 +1,16 @@
+<section>
+	<script type="text/javascript">
+
+	</script>
+    <div ng-repeat='entry in entries'>
+        <button class="btn btn-primary entry col-xs-12" type="button">{{entry.title}}</button>
+        <ul>
+            <li>Company: {{entry.company}}</li>
+            <li>Date: {{entry.date}}</li>
+            <li>Location: {{entry.location}}</li>
+            <ul> Details:
+            	<li ng-repeat='detail in entry.details'>{{detail}}</li>
+        	</ul>
+        </ul>
+    </div>
+</section>

@@ -1,0 +1,15 @@
+<section>
+    <div class="dropdown col-xs-12" ng-repeat='entry in entries'>
+        <button class="btn btn-primary entry" ng-click="showDetails = !showDetails" type="button">{{entry.title}}</button>
+        <div ng-show="showDetails">
+        <ul class="detail-list">
+            <li>Company: {{entry.company}}</li>
+            <li>Date: {{entry.date}}</li>
+            <li>Location: {{entry.location}}</li>
+            <ul> Details:
+            	<li ng-repeat='detail in entry.details'>{{detail}}</li>
+        	</ul>
+        </ul>
+    </div>
+    </div>
+</section>

@@ -8,6 +8,8 @@
         <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u' crossorigin='anonymous'>
         <script src='node_modules/angular/angular.js'></script>
         <script src='node_modules/angular-route/angular-route.js'></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
         <!-- scripts -->
         <script src='app/scripts/app.js'></script>
         <script src='app/scripts/controllers/controllers.js'></script>
@@ -21,29 +23,29 @@
         <span class='name col-xs-4'>Messier</span>
     </header>
 
-    <body class='container-fluid'>
-        <section class='row'>
-            <div class='col-xs-6'></div>
-            <div class='col-xs-6'>
-                <input type='text' id='search-resume' placeholder='search' />
-            </div>
-        </section>
+    <body class='container-fluid cloud-container'>
         <nav class='navbar navbar-default row' ng-controller='navbarController'>
             <div class='container-fluid'>
                 <ul class='nav navbar-nav col-xs-12'>
-                    <li ng-repeat='heading in headings' class="col-xs-12 col-sm-2"><a href='#/entry-detail/{{heading.name}}'>{{heading.name}}</a></li>
+                    <li ng-repeat='heading in headings' class="col-xs-12 col-sm-2 nav-item"><a href='#/{{heading.name}}'>{{heading.name}}</a></li>
                 </ul>
             </div>
         </nav>
         <div class="row">
-            <div class="col-xs-3"></div>
-            <div ng-view class="col-xs-9"></div>
+            <div class="col-xs-6 col-sm-5 col-md-4"></div>
+            <div ng-view class="col-xs-6 col-sm-7 col-md-8"></div>
         </div>
     </body>
-    <footer>
+    <footer class="footer row">
         <span class="row">508 415 4142</span>
         <span class="row">mmessier94@gmail.com</span>
-
+        <span class="row">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=example.org" target="_blank">
+            <img width="30px" height="30px" src="resources/img/facebook.png">
+        </a>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false"></a>
+        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </span>
     </footer>
 
     </html>

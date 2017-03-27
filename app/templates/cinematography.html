@@ -1,0 +1,8 @@
+<section>
+    <div class="col-xs-12" ng-repeat='entry in entries'>
+        <button class="btn btn-primary entry" type="button">{{entry.title}}</button>
+        <ul>
+            <li ng-repeat='detail in entry.details'>{{detail}}</li>
+        </ul>
+    </div>
+</section>

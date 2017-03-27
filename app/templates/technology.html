@@ -1,0 +1,8 @@
+<section>
+    <div class="col-xs-12" ng-repeat='entry in entries'>
+        <button class="btn btn-primary entry" type="button">{{entry.proficiency}}</button>
+        <ul>
+            <li ng-repeat='language in entry.languages'>{{language}}</li>
+        </ul>
+    </div>
+</section>
