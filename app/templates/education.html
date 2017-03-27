@@ -1,9 +1,11 @@
 <section>
     <div class="col-xs-12" ng-repeat='entry in entries'>
-        <button class="btn btn-primary entry" type="button">{{entry.degree}}</button>
-        <ul>
-            <li>School: {{entry.school}}</li>
-            <li>Location: {{entry.location}}</li>
-        </ul>
+        <button class="btn btn-primary entry" ng-click="showDetails = !showDetails" type="button">{{entry.degree}}</button>
+        <div ng-show="showDetails">
+            <ul class="detail-list">
+                <li>School: {{entry.school}}</li>
+                <li>Location: {{entry.location}}</li>
+            </ul>
+        </div>
     </div>
 </section>

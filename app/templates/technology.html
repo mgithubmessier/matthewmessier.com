@@ -1,8 +1,10 @@
 <section>
     <div class="col-xs-12" ng-repeat='entry in entries'>
-        <button class="btn btn-primary entry" type="button">{{entry.proficiency}}</button>
-        <ul>
-            <li ng-repeat='language in entry.languages'>{{language}}</li>
-        </ul>
+        <button class="btn btn-primary entry" ng-click="showDetails = !showDetails" type="button">{{entry.proficiency}}</button>
+        <div ng-show="showDetails">
+            <ul class="detail-list">
+                <li ng-repeat='language in entry.languages'>{{language}}</li>
+            </ul>
+        </div>
     </div>
 </section>
